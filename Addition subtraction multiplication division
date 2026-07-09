@@ -1,0 +1,99 @@
+1 // Name Saheb Anand Kudre
+
+2 // PRN- 2503033111378UD019
+
+3
+
+4 #include <stdio.h>
+
+5
+
+6 int add(int a, int b)
+
+7 {
+
+8 return a + b;
+
+9 }
+
+10
+
+11 int subtract(int a, int b)
+
+12
+
+{
+
+13 return a b;
+
+14 }
+
+15
+
+16 int multiply(int a, int b)
+
+17 {
+
+18 return a b;
+
+19 }
+
+20
+
+21 float divide(int a, int b)
+
+22 {
+
+23 return (float)a / b;
+
+24 }
+
+25
+
+26 int main()
+
+27 {
+
+28 int num1, num2;
+
+29
+
+30 printf("Enter two numbers: ");
+
+31 scanf("%d %d", &num1, &num2);
+
+32
+
+33 printf("Addition = %d\n", add(num1, num2));
+
+34 35 printf("Subtraction = %d\n", subtract(num1, num2)); printf("Multiplication = %d\n", multiply (num1, num2));
+
+36
+
+37 if (num2 != 0)
+
+38 printf("Division = %.2f\n", divide(num1, num2));
+
+39 else
+
+40 printf("Division by zero is not possible.\n");
+
+41
+
+42 return 0;
+
+43 }
+
+44
+
+Enter two numbers: 50 20
+
+Addition 70
+
+Subtraction = 30
+
+Multiplication = 1000
+
+Division 2.50
+
+[Process completed press Enter]
